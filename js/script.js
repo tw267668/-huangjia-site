@@ -41,4 +41,12 @@ document.addEventListener('DOMContentLoaded', function () {
             lightbox.classList.add('show');
         });
     }
+
+    // FAQ accordion
+    document.querySelectorAll('.faq-question').forEach(function (q) {
+        q.addEventListener('click', function () {
+            var item = this.parentElement;
+            item.classList.toggle('open');
+        });
+    });
 });
