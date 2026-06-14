@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tw267668.github.io/-huangjia-site/sitemap.xml
